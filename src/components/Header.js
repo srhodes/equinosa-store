@@ -8,7 +8,7 @@ import {
     NavItem 
 } from 'reactstrap'
 import { NavLink } from 'react-router-dom' 
-import EquinosaLogo from '../app/assets/img/EQUINOSA_Logo.png'
+import EquinosaLogo from '../app/assets/img/EquinosaRedLogo.png'
 import { EQUINOSAS } from '../app/shared/EQUINOSAS'
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand href='/'>
                 <img src={EquinosaLogo} alt='equinosa logo' />
-                {/* <h1>Equinosa</h1> */}
+                <h1>Equinosa</h1>
             </NavbarBrand>
             <Nav className='ms-auto' navbar>
             <NavItem>
