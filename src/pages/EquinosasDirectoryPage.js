@@ -1,15 +1,13 @@
 import { Container}  from 'reactstrap';
 import EquinosasList from '../features/equinosas/EquinosasList';
+import SubHeader from '../components/SubHeader';
 
 const EquinosasDirectoryPage = () => {
-
     return (
         <Container> 
-                      
-                    <EquinosasList />
-              
+            <SubHeader current='Directory'/>
+            <EquinosasList />
         </Container>
-        
     );
 };
 
