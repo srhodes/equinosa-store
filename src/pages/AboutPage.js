@@ -5,7 +5,7 @@ const AboutPage = () => {
 
     return(
         <Container>
-            <SubHeader prop= 'About Us'/>
+            <SubHeader current= 'About Us'/>
             <Row className='row-content'>
                 <Col sm='6'>
                     <h3>Our Mission</h3>
