@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import EquinosasDirectoryPage from './pages/EquinosasDirectoryPage';
 import EquinosaDetailPage from './pages/EquinosaDetailPage';
+import AboutPage from './pages/AboutPage';
 import './App.css';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
                 path='directory/:equinosaId'
                 element={<EquinosaDetailPage/>}
             />
+            <Route path='about' element={<AboutPage/>} />
+            
             </Routes>
             <Footer />
         </div>
